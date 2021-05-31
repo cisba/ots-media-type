@@ -12,7 +12,7 @@ Proposal for the [IANA Application](https://www.iana.org/form/media-types) for a
 | Security Considerations | OTS files contain URLs pointing to the server that provided it. Applications can ignore URLs if not trusted ||
 | Interoperability Considerations
 | Published specification
-| Application Usage | OpenTimestamps calendar serve and client (see opentimestamps.org) ||
+| Application Usage | OpenTimestamps calendar server and client for distributed ledgers (aka blockchain) timestamping. See opentimestamps.org for more details. ||
 | Fragment Identifier Considerations
 | Restrictions on Usage
 | Provisional Registrations
