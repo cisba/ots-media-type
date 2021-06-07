@@ -23,5 +23,5 @@ Proposal for the [IANA Application](https://www.iana.org/form/media-types) for a
 | Additional Information - Object Identifier(s) or OID(s)
 | Intended Usage | common ||
 | Other Information & Comments | The complete magic numbers list is: <br /> 00 4f 70 65 6e 54 69 6d 65 73 74 61 6d 70 73 00 <br /> 00 50 72 6f 6f 66 00 bf 89 e2 e8 84 e8 92 94 01 <br /> where the last byte of that header is the major <br /> version number, 1 in this case ||
-| Contact Person - Contact Name | Emanuele Cisbani ||
-| Contact Person - Contact Email Address | ecisbani@intesigroup.com ||
+| Contact Person - Contact Name | Peter Todd ||
+| Contact Person - Contact Email Address | pete@petertodd.org ||
