@@ -1,5 +1,7 @@
 Proposal for the [IANA Application](https://www.iana.org/form/media-types) for an OpenTimeStamps Media Type.
 
+Request (Ticket) information [#1199397](https://tools.iana.org/public-view/viewticket/1199397) 
+
 | Field Name | Value | Note |
 |--|--|--|
 | Your Full Name | Emanuele Cisbani ||
