@@ -16,8 +16,8 @@ Request (Ticket) information [#1199397](https://tools.iana.org/public-view/viewt
 | Published specification | Not currently available ||
 | Application Usage | OpenTimestamps calendar server and client for distributed ledgers (aka blockchain) timestamping. See opentimestamps.org for more details. ||
 | Fragment Identifier Considerations | N/A ||
-| Restrictions on Usage | intended for limited use ||
-| Provisional Registrations
+| Restrictions on Usage | intended for common use ||
+| Provisional Registrations | N/A ||
 | Additional Information - Deprecated alias names for this type | not defined ||
 | Additional Information - Magic number(s) | Proof files start with: 00 4f 70 65 6e 54 69 6d 65 73 74 61 ||
 | Additional Information - File extension(s) | ots ||
