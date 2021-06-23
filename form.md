@@ -11,7 +11,20 @@ Request (Ticket) information [#1199397](https://tools.iana.org/public-view/viewt
 | Required Parameters | There are no Required Parameters ||
 | Optional Parameters | There are no Optional Parameters ||
 | Encoding Considerations | binary ||
-| Security Considerations | OTS files contain URLs pointing to the server that provided it. Applications can ignore URLs if not trusted ||
+| Security Considerations | OTS files contain URLs pointing to the server that provided it. 
+Applications can ignore URLs if not trusted. This media type does not contain active or executable content.
+The information contained in the media type does not need integrity services.
+Considering the information is made by hashes, integrity can be 
+verified only by having the original document that is not included 
+in the media type..
+No personal data are directly exposed because the information 
+is a timestamp that can only proof the original document existed 
+at a defined date.
+Protecting this indirect information alone with standard encryption 
+is an extremely rare use case. It's often the case that timestamps
+are provided bundled with the referring documents.
+Links are referenced in order to get additional information, 
+they are not necessary to properly interpret the type. ||
 | Interoperability Considerations | Bytes ordering is little-endian ||
 | Published specification | vendor media types does not require it ||
 | Application Usage | OpenTimestamps calendar server and client for distributed ledgers (aka blockchain) timestamping. See opentimestamps.org for more details. ||
